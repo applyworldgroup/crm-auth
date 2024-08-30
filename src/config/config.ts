@@ -4,5 +4,8 @@ export default () => ({
     },
     jwt: {
         secret: process.env.JWT_SECRET,
+    },
+    rt: {
+        secret: process.env.RT_SECRET,
     }
 });
